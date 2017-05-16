@@ -1,0 +1,144 @@
+/*
+p.italic {
+		
+		font-style: italic;
+}
+
+.container {
+    width: 450px;
+    overflow: auto;
+}
+
+.cube {
+    float: left;
+    width: 150px; 
+    height: 150px;
+}
+
+.container {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+*/
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 50%
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  line-height: 1.2;
+}
+/*
+a {
+  color: #F8BBD0;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.1s ease;
+}
+
+a:hover, a:focus {
+  color: #C2185B;
+  text-decoration: underline;
+}
+*/
+.caption-container {
+  width: 100%;
+  margin: 0 auto 23.72881%;
+  padding: 6.77966% 0;
+}
+
+@media screen and (min-width: 1110px) {
+  .caption-container {
+    width: 66.10169%;
+    padding: 6.77966%;
+  }
+}
+
+.caption-container blockquote {
+  margin-bottom: 6.77966%;
+  font-family: 'Neuton', serif;
+  line-height: 1.3;
+}
+
+.caption-container .quote-text, .quote-container .quote-author {
+  font-size: 200%;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-shadow: -1px 0 3px #c2185b;
+}
+
+@media screen and (min-width: 480px) {
+  .caption-container .quote-text, .quote-container .quote-author {
+    font-size: 250%;
+  }
+}
+
+/*
+.quote-container .quote-author {
+  text-align: right;
+  font-size: 125%;
+}
+
+@media screen and (min-width: 480px) {
+  .quote-container .quote-author {
+    font-size: 175%;
+  }
+}
+*/
+.button-container {
+  display: block;
+  text-align: center;
+  margin-top: 15.25424%;
+}
+
+.button {
+  padding: 1em;
+  width: 49.15254%;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #C2185B;
+  font-size: 130%;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover, .button:focus {
+  background-color: #951246;
+  color: #F8BBD0;
+}
+
+.twitter-share-button {
+  display: block;
+  margin: 1em auto;
+}
+/*
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #ee4c83;
+  text-align: center;
+}
+*/
